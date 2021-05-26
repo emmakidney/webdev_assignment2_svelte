@@ -58,6 +58,7 @@ export class ReviewService {
                 method: method,
                 location: location,
             };
+            this.reviewList.push(review);
             const response = await axios.post(this.baseUrl + "/api/locations/" + location._id + "/reviews", review);
             return response.status == 200;
         } catch (error) {
@@ -70,6 +71,7 @@ export class ReviewService {
             email: "",
             token: ""
         });
+        this.reviewList = [];
         axios.defaults.headers.common["Authorization"] = "";
         localStorage.review = null;
 
