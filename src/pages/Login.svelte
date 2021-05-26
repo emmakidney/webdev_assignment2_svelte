@@ -1,6 +1,6 @@
 <script>
     import {title, subTitle, navBar, welcomeBar} from "../stores";
-    import LoginForm from "../components/LoginForm.svelte";
+    import LoginForm from "../Components/LoginForm.svelte";
     import sun from "/src/assets/sun.png";
     title.set("Visit Tramore Ltd.");
     subTitle.set("Please Log in");
