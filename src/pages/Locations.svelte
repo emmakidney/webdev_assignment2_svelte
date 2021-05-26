@@ -1,5 +1,5 @@
 <script>
-    import LocationList from "../components/LocationList.svelte";
+    import LocationList from "../Components/LocationList.svelte";
     import sandcastle from "/src/assets/sandcastle.png";
     import {navBar, mainBar, subTitle, title} from "../stores"
 
