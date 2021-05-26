@@ -1,5 +1,5 @@
 <script>
-    import ReviewList from "../components/ReviewList.svelte";
+    import ReviewList from "../Components/ReviewList.svelte";
     import crab from "/src/assets/crab.png";
     import {navBar, mainBar, subTitle, title} from "../stores"
 
