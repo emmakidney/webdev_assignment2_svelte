@@ -1,7 +1,7 @@
 <script>
     import towel from "/src/assets/towel.png";
     import {navBar, mainBar, subTitle, title} from "../stores"
-    import ReviewForm from "../components/ReviewForm.svelte";
+    import ReviewForm from "../Components/ReviewForm.svelte";
 
     title.set("Visit Tramore Ltd.");
     subTitle.set("Leave a Review!");
