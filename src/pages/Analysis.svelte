@@ -2,7 +2,7 @@
     import {navBar, mainBar, subTitle, title} from "../stores"
     import Chart from 'svelte-frappe-charts';
     import {getContext, onMount} from "svelte";
-    import ReviewForm from "../components/ReviewForm.svelte";
+    import ReviewForm from "../Components/ReviewForm.svelte";
 
     const reviewService = getContext("ReviewService");
 
