@@ -12,7 +12,7 @@
     import Review from "./pages/review.svelte";
     import Router from "svelte-spa-router";
 
-    setContext("ReviewService", new ReviewService("http://localhost:4000"));
+    setContext("ReviewService", new ReviewService("https://pacific-caverns-35080.herokuapp.com/"));
 
     let routes = {
       "/": Main,
