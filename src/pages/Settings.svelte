@@ -1,7 +1,7 @@
 <script lang="ts">
     import {mainBar, navBar, subTitle, title} from "../stores";
     import towel from "/src/assets/towel.png";
-    import SettingsForm from "../components/SettingsForm.svelte";
+    import SettingsForm from "../Components/SettingsForm.svelte";
     title.set("Visit Tramore Ltd.");
     subTitle.set("Edit and then save your settings");
     navBar.set({
