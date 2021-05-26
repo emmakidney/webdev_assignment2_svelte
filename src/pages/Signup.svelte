@@ -1,7 +1,7 @@
 <script lang="ts">
     import crab from "/src/assets/crab.png";
     import {title, subTitle, navBar, welcomeBar} from "../stores";
-    import SignupForm from "../components/SignupForm.svelte";
+    import SignupForm from "../Components/SignupForm.svelte";
     title.set("Visit Tramore Ltd.");
     subTitle.set("Please Sign up");
     navBar.set({
