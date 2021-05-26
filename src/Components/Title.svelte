@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="uk-card uk-card-small uk-text-center uk-padding-remove">
-            <a target="_blank" href="https://github.com/wit-hdip-comp-sci-2020/donation-svelte">
+            <a target="_blank" href="https://github.com/emmakidney/webdev_assignment2_svelte/">
                 <div>
                     <i class="fas fa-umbrella-beach fa-3x" style="color:rgb(95, 96, 173)" title="Source repo" pos="bottom" uk-tooltip></i>
                 </div>
